@@ -1,14 +1,16 @@
 <template>
-  <v-container class="pt-16 pb-16">
-    <v-row class="pb-16">
-      <v-col cols="12" class="pb-8 text-center">
-        <v-card-title class="text-h4 text-white">Programação</v-card-title>
-        <v-card-subtitle class="text-h6 text-white">Confira as atividades e palestras dos dias 09 e 10 de novembro</v-card-subtitle>
+  <v-container id="programacao" class="pt-16 pb-16">
+    <v-row class="pt-16 pb-8 justify-center">
+      <v-col cols="11" class="pb-8 text-center">
+        <h1 class="text-h3 text-white">Programação do Evento</h1>
+        <h2 class="pt-3 text-h6 text-white font-weight-regular" style="line-height: 1.3;">Confira as atividades e palestras dos dias <span class="text-yellow-darken-1">09 e 10 de novembro</span></h2>
       </v-col>
       <!-- Coluna Sábado -->
-      <v-col cols="12" md="6">
-        <div class="pb-2">
-          <span class="text-white text-h6">SÁBADO • 09.NOV</span>
+      <v-col cols="11" md="6">
+        <div class="pb-4 text-center">
+          <v-icon size="24" color="purple-lighten-3">mdi-arrow-down</v-icon>
+          <span class="text-yellow-darken-1 text-h6 font-weight-medium pr-1"> SÁBADO <span class="text-white">•</span> 09.NOV</span>
+          <v-icon size="24" color="purple-lighten-3">mdi-arrow-down</v-icon>
         </div>
         <v-card
           v-for="(atividade, index) in programacao[0]" :key="index"
@@ -19,31 +21,35 @@
           style="border: 2px solid #ccc; margin-bottom: 16px; color: #fff;"
         >
           <v-row>
-            <v-col cols="2" class="pl-6">
-              <v-avatar
-                v-if="atividade.imagem"
-                class="avatar-bordered mt-4"
-                size="72"
-                :image="atividade.imagem"
-              ></v-avatar>
-            </v-col>
-            <v-col cols="10" class="pl-6">
-              <v-chip class="mt-3 mx-2" color="primary" text-color="white">{{ atividade.horario }}</v-chip>
-              <v-card-title class="py-0 text-white" style="white-space: normal;">
+            <v-col>
+              <v-chip size="sm" class="mt-3 mx-2 px-3 " color="yellow-darken-1" text-color="white">{{ atividade.horario }}</v-chip>
+              <v-card-title class="pt-2 pb-0 text-white text-h5" style="white-space: normal;">
                 {{ atividade.titulo }}
               </v-card-title>
-              <v-card-subtitle class="pt-0 text-white" style="white-space: normal;">
+              <v-card-subtitle class="pt-1 text-purple-lighten-5 text-uppercase" style="white-space: normal;">
                 {{ atividade.subtitulo }}
               </v-card-subtitle>
             </v-col>
           </v-row>
+          <v-row>
+            <v-col cols="3" md="2"class="pl-7">
+              <v-avatar
+                v-if="atividade.imagem"
+                class="avatar-bordered"
+                size="72"
+                :image="atividade.imagem"
+              ></v-avatar>
+            </v-col>
+            <v-col cols="7" md="10" class="pl-4">
+              <div v-if="atividade.convidado" class="text-h6 text-yellow-darken-1">{{ atividade.convidado }}<br></div>
+              <div v-if="atividade.minicurriculo" class="text-subtitle-1 text-purple-lighten-5 font-weight-light" style="line-height: 1.3;">{{ atividade.minicurriculo }}<br></div>
+            </v-col>
+          </v-row>
           <v-card-text class="text-white" style="font-size: 1.1em;">
-            <strong>Convidado:</strong> {{ atividade.convidado }}<br>
-            <strong>Minicurrículo:</strong> {{ atividade.minicurriculo }}<br><br>
             {{ atividade.descricao }}
           </v-card-text>
           <v-card-actions>
-            <v-btn text color="primary" @click="atividade.expanded = !atividade.expanded">
+            <v-btn text color="yellow-darken-1" @click="atividade.expanded = !atividade.expanded">
               {{ atividade.expanded ? 'Ver Menos' : 'Ver Mais' }}
             </v-btn>
           </v-card-actions>
@@ -59,9 +65,11 @@
         </v-card>
       </v-col>
       <!-- Coluna Domingo -->
-      <v-col cols="12" md="6">
-        <div class="pb-2">
-          <span class="text-white text-h6">DOMINGO • 10.NOV</span>
+      <v-col cols="11" md="6">
+        <div class="pb-4 text-center">
+          <v-icon size="24" color="purple-lighten-3">mdi-arrow-down</v-icon>
+          <span class="text-yellow-darken-1 text-h6 font-weight-medium pr-1"> DOMINGO <span class="text-white">•</span> 10.NOV</span>
+          <v-icon size="24" color="purple-lighten-3">mdi-arrow-down</v-icon>
         </div>
         <v-card
           v-for="(atividade, index) in programacao[1]" :key="index"
@@ -72,31 +80,35 @@
           style="border: 2px solid #ccc; margin-bottom: 16px; color: #fff;"
         >
           <v-row>
-            <v-col cols="2" class="pl-6">
-              <v-avatar
-                v-if="atividade.imagem"
-                class="avatar-bordered mt-4"
-                size="72"
-                :image="atividade.imagem"
-              ></v-avatar>
-            </v-col>
-            <v-col cols="10" class="pl-6">
-              <v-chip class="mt-3 mx-2" color="primary" text-color="white">{{ atividade.horario }}</v-chip>
-              <v-card-title class="py-0 text-white" style="white-space: normal;">
+            <v-col>
+              <v-chip size="sm" class="mt-3 mx-2 px-3 " color="yellow-darken-1" text-color="white">{{ atividade.horario }}</v-chip>
+              <v-card-title class="pt-2 pb-0 text-white text-h5" style="white-space: normal;">
                 {{ atividade.titulo }}
               </v-card-title>
-              <v-card-subtitle class="pt-0 text-white" style="white-space: normal;">
+              <v-card-subtitle class="pt-1 text-purple-lighten-5 text-uppercase" style="white-space: normal;">
                 {{ atividade.subtitulo }}
               </v-card-subtitle>
             </v-col>
           </v-row>
+          <v-row>
+            <v-col cols="3" md="2"class="pl-7">
+              <v-avatar
+                v-if="atividade.imagem"
+                class="avatar-bordered"
+                size="72"
+                :image="atividade.imagem"
+              ></v-avatar>
+            </v-col>
+            <v-col cols="7" md="10" class="pl-4">
+              <div v-if="atividade.convidado" class="text-h6 text-yellow-darken-1">{{ atividade.convidado }}<br></div>
+              <div v-if="atividade.minicurriculo" class="text-subtitle-1 text-purple-lighten-5 font-weight-light" style="line-height: 1.3;">{{ atividade.minicurriculo }}<br></div>
+            </v-col>
+          </v-row>
           <v-card-text class="text-white" style="font-size: 1.1em;">
-            <strong>Convidado:</strong> {{ atividade.convidado }}<br>
-            <strong>Minicurrículo:</strong> {{ atividade.minicurriculo }}<br><br>
             {{ atividade.descricao }}
           </v-card-text>
           <v-card-actions>
-            <v-btn text color="primary" @click="atividade.expanded = !atividade.expanded">
+            <v-btn text color="yellow-darken-1" @click="atividade.expanded = !atividade.expanded">
               {{ atividade.expanded ? 'Ver Menos' : 'Ver Mais' }}
             </v-btn>
           </v-card-actions>
@@ -112,6 +124,26 @@
         </v-card>
       </v-col>
     </v-row>
+    <v-row>
+      <v-col cols="12" class="pb-16">
+        <div class="text-left">
+          <v-btn 
+            height="72" 
+            class="text-h4 font-weight-medium text-uppercase" 
+            variant="flat" 
+            block
+            color="yellow-darken-1"
+            target="_blank"
+            href="https://outgo.com.br/ii-pium-mistico-encontro-holistico-potiguar"
+          >
+            <v-icon icon="mdi-arrow-right" color="purple-darken-3" class="pr-1"></v-icon>
+            Fazer Inscrição
+            <v-icon icon="mdi-arrow-left" color="purple-darken-3" class="pl-1"></v-icon>
+          </v-btn>
+        </div>
+        <p class="pt-1 font-weight-light text-subtitle-1 text-center text-white">Reserve já o seu lugar e vivencie momentos de profunda conexão e aprendizado!</p>
+      </v-col>
+    </v-row>
   </v-container>
 </template>
 
@@ -122,7 +154,7 @@ const programacao = ref([]);
 
 onMounted(async () => {
   try {
-    const response = await fetch('./src/assets/programacao.json');
+    const response = await fetch('./programacao.json');
     const data = await response.json();
 
     // Verificando se o JSON é um array com duas posições

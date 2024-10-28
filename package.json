@@ -1,7 +1,6 @@
 {
-  "name": "piummistico",
+  "name": "pm2-v1",
   "version": "0.0.0",
-  "private": true,
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -9,21 +8,26 @@
     "lint": "eslint . --fix --ignore-path .gitignore"
   },
   "dependencies": {
-    "@mdi/font": "7.0.96",
-    "axios": "^1.4.0",
-    "core-js": "^3.29.0",
+    "@mdi/font": "7.4.47",
+    "core-js": "^3.38.1",
     "roboto-fontface": "*",
-    "vue": "^3.2.0",
-    "vue-router": "^4.0.0",
-    "vuetify": "^3.0.0",
-    "webfontloader": "^1.0.0"
+    "vue": "^3.5.12",
+    "vuetify": "^3.7.3"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^4.0.0",
-    "eslint": "^8.37.0",
-    "eslint-plugin-vue": "^9.3.0",
-    "sass": "^1.79.5",
-    "vite": "^4.5.5",
-    "vite-plugin-vuetify": "^1.0.0"
+    "@vitejs/plugin-vue": "^5.1.4",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-vue": "^9.29.1",
+    "pinia": "^2.2.4",
+    "sass": "1.80.4",
+    "unplugin-auto-import": "^0.18.3",
+    "unplugin-fonts": "^1.1.1",
+    "unplugin-vue-components": "^0.27.4",
+    "unplugin-vue-router": "^0.10.8",
+    "vite": "^5.4.10",
+    "vite-plugin-vue-layouts": "^0.11.0",
+    "vite-plugin-vuetify": "^2.0.4",
+    "vue-router": "^4.4.5"
   }
 }

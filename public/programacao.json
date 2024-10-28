@@ -1,0 +1,210 @@
+[
+  [
+  {
+    "dia": "SÁBADO • 09.NOV",
+    "titulo": "Yoga (Prática Presencial)",
+    "horario": "08:00",
+    "subtitulo": "Yoga para Bem-Estar",
+    "convidado": "Patrícia Britto",
+    "minicurriculo": "Professora de yoga vinculada à linhagem de Krishnamacharya.",
+    "descricao": "Prática presencial de yoga para equilíbrio e bem-estar.",
+    "imagem": "/convidados/patricia.jpg",
+    "sobreConvidado": "Patrícia Britto é jornalista, praticante e professora de yoga, vinculada à linhagem de Krishnamacharya e Desikachar. Iniciou seus estudos na Índia em 2017 e, desde então, mantém um acompanhamento contínuo com professores renomados, explorando filosofia, pedagogia e psicologia do yoga.",
+    "sobreAtividade": "A prática de yoga guiada por Patrícia Britto é focada no bem-estar e na adaptação pessoal, ajudando a integrar a prática no cotidiano de forma simples e eficaz."
+  },
+  {
+    "dia": "SÁBADO • 09.NOV",
+    "titulo": "Palestra CVV",
+    "horario": "09:30",
+    "subtitulo": "Falando Abertamente sobre o Suicídio",
+    "convidado": "CVV",
+    "minicurriculo": "Fundado em 1962, o CVV é um serviço voluntário gratuito de apoio emocional.",
+    "descricao": "Estatísticas alarmantes, sinais de alerta e como ajudar na prevenção.",
+    "imagem": "/convidados/cvv.jpg",
+    "sobreConvidado": "O CVV – Centro de Valorização da Vida oferece apoio emocional e prevenção ao suicídio para quem precisa conversar, sob total sigilo e anonimato. São mais de 3 milhões de atendimentos anuais realizados por cerca de 3.500 voluntários.",
+    "sobreAtividade": "A palestra visa abordar a prevenção ao suicídio, discutindo estatísticas alarmantes e como reconhecer sinais de que algo não está bem."
+  },
+  {
+    "dia": "SÁBADO • 09.NOV",
+    "titulo": "Mesa Redonda: Corpo São, Mente Sã",
+    "horario": "11:00",
+    "subtitulo": "Ferramentas das Áreas Integrativas e sua Eficiência para Resultados Assertivos",
+    "convidado": "Convidados",
+    "minicurriculo": "André Ortega (mediador), Patrícia Britto, Kássia Galvão, Jaganath",
+    "descricao": "Especialistas discutem bem-estar e a eficiência das áreas integrativas para a saúde.",
+    "imagem": "/convidados/mesa1.jpg",
+    "sobreConvidado": "Mediador: André Ortega (Visão sistêmica). Convidados: Guerreiro Jaganath - A meditação e a saúde mental; Kássia Galvão: Nutrologia Integrativa e Funcional para uma Mente Saudável; Patrícia Britto: A prática pessoal de yoga como ferramenta na vida cotidiana",
+    "sobreAtividade": "Mesa redonda sobre a eficiência das áreas integrativas para promover saúde e bem-estar, contando com especialistas em diversas práticas."
+  },
+  {
+    "dia": "SÁBADO • 09.NOV",
+    "titulo": "Almoço Cultural",
+    "horario": "12:30",
+    "subtitulo": "Momento Zen",
+    "convidado": "Webster Gratidão",
+    "minicurriculo": "Saxofonista e Terapeuta Musical",
+    "descricao": "Intervalo para almoço com terapia musical.",
+    "imagem": "/convidados/almoco1.jpg",
+    "sobreConvidado": "Webster Gratidão é saxofonista e terapeuta musical, dedicando sua carreira a utilizar a música como ferramenta de relaxamento e cura. Com sua abordagem sensível e experiência em terapias sonoras, ele busca proporcionar momentos de conexão, equilíbrio e tranquilidade através da música.",
+    "sobreAtividade": "Um momento relaxante e cultural durante o intervalo para almoço, acompanhado por Webster Gratidão, saxofonista e terapeuta musical."
+  },
+  {
+    "dia": "SÁBADO • 09.NOV",
+    "titulo": "Palestra: \"EMOÇÕES\" As Sete Saias",
+    "horario": "14:30",
+    "subtitulo": "Peça teatral performática que mexe com as emoções",
+    "convidado": "Juliana Modro",
+    "minicurriculo": "CEO da Palhaça-Ria, especialista em risoterapia.",
+    "descricao": "Peça teatral onde a personagem Fiorela, conduzida por Juliana Modro, explora sete emoções humanas, promovendo autoconhecimento e alinhamento pessoal.",
+    "imagem": "/convidados/modro.jpg",
+    "sobreConvidado": "Juliana Modro é CEO da Palhaça-Ria e desenvolveu o projeto 'As Sete Saias', uma peça teatral que explora os sentimentos humanos através da personagem Fiorela.",
+    "sobreAtividade": "A peça teatral performática 'As Sete Saias' aborda sete emoções e suas energias, trazendo reflexões sobre o autoconhecimento e alinhamento pessoal."
+  },
+  {
+    "dia": "SÁBADO • 09.NOV",
+    "titulo": "Vivência Connect Now",
+    "horario": "16:00",
+    "subtitulo": "Experiência sistêmica e energética",
+    "convidado": "Marcos Cabral",
+    "minicurriculo": "Criador do método Connect Now",
+    "descricao": "Vivência para conectar-se a níveis mais profundos do ser.",
+    "imagem": "/convidados/marcos.jpg",
+    "sobreConvidado": "Marcos Cabral é facilitador sistêmico e criador do método Connect Now, uma abordagem para a conexão energética e sistêmica.",
+    "sobreAtividade": "Abordagem profunda baseada nas terapias sistêmicas e energéticas, que utiliza técnicas breves e atemporais para trazer sua consciência ao momento presente, de forma leve e sutil."
+  },
+  {
+    "dia": "SÁBADO • 09.NOV",
+    "titulo": "Encerramento com Apresentação Cultural",
+    "horario": "17:30",
+    "subtitulo": "Medicina do Tambor",
+    "convidado": "Xamã Anna Xara",
+    "minicurriculo": "Praticante da Medicina do Tambor.",
+    "descricao": "Condução de Roda de Tambores ao redor da fogueira sagrada. Aberto ao público.",
+    "imagem": "/convidados/xama.jpg",
+    "sobreConvidado": "Anna Xara é uma xamã que pratica a Medicina do Tambor, utilizando a música e o ritmo para promover a conexão espiritual.",
+    "sobreAtividade": "Condução de uma roda de tambores ao redor da fogueira sagrada, conectando os participantes às tradições e saberes dos povos originários da Amazônia."
+  }
+],
+[
+  {
+    "dia": "DOMINGO • 10.NOV",
+    "titulo": "Yoga (Prática Presencial)",
+    "horario": "08:00",
+    "subtitulo": "Prática de yoga para bem-estar",
+    "convidado": "Nestor Leite",
+    "minicurriculo": "Instrutor de yoga com experiência em práticas presenciais.",
+    "descricao": "Prática de yoga para iniciar o dia com equilíbrio e bem-estar.",
+    "imagem": "/convidados/nestor.jpg",
+    "sobreConvidado": "Nestor Leite é professor de Hatha Yoga com formação na Montanha Encantada-SC e atualmente leciona yoga integrativa e yoga do riso.",
+    "sobreAtividade": "A prática guiada por Nestor Leite é uma abordagem integrativa, proporcionando equilíbrio e bem-estar físico e mental."
+  },
+  {
+    "dia": "DOMINGO • 10.NOV",
+    "titulo": "Palestra: Meditação - Sua Melhor Aliada",
+    "horario": "09:30",
+    "subtitulo": "A Meditação Shaktipat e seus Benefícios",
+    "convidado": "Jaganath",
+    "minicurriculo": "Representante do Siddha Maha Yoga do Brasil.",
+    "descricao": "Introdução à meditação como ferramenta para saúde mental, destacando o sistema de Meditação Shaktipat, realizado sem esforço.",
+    "imagem": "/convidados/jaganath.jpg",
+    "sobreConvidado": "Jaganath é representante do Siddha Maha Yoga do Brasil no RN e praticante da meditação Shaktipat, um método que visa despertar a energia interior para alcançar estados elevados de consciência.",
+    "sobreAtividade": "A palestra aborda como a meditação Shaktipat pode se tornar uma aliada essencial em busca da saúde mental, proporcionando uma prática de meditação simples e eficaz."
+  },
+  {
+    "dia": "DOMINGO • 10.NOV",
+    "titulo": "Palestra: Kundalini Yoga e Numerologia Tântrica",
+    "horario": "10:00",
+    "subtitulo": "Transformação através do Kundalini Yoga",
+    "convidado": "Sachii Liv Singh",
+    "minicurriculo": "Representante do Siddha Maha Yoga do Brasil.",
+    "descricao": "Explorando como o Kundalini Yoga pode transformar estruturas identificadas pela numerologia tântrica terapêutica.",
+    "imagem": "/convidados/sachii.jpg",
+    "sobreConvidado": "Sachii Liv Singh é um praticante de Kundalini Yoga e representante do Siddha Maha Yoga do Brasil, especialista em integrar numerologia tântrica à prática de yoga.",
+    "sobreAtividade": "A palestra apresenta o Kundalini Yoga como uma ferramenta de transformação pessoal, abordando também a numerologia tântrica terapêutica e suas aplicações."
+  },
+  {
+    "dia": "DOMINGO • 10.NOV",
+    "titulo": "Vivência: Biodança",
+    "horario": "10:45",
+    "subtitulo": "Movimento e Autodescoberta",
+    "convidado": "Alana",
+    "minicurriculo": "Psicóloga doutoranda.",
+    "descricao": "Experiência prática de biodança, promovendo movimento e expressão para o autoconhecimento.",
+    "imagem": "/convidados/alana.jpg",
+    "sobreConvidado": "Alana é psicóloga e doutoranda, com especialização em práticas de biodança que promovem autoconhecimento e bem-estar emocional.",
+    "sobreAtividade": "A vivência de biodança guiada por Alana é uma prática terapêutica que conecta o movimento corporal com o autodesenvolvimento, proporcionando uma experiência de expressão e descoberta pessoal."
+  },
+  {
+    "dia": "DOMINGO • 10.NOV",
+    "titulo": "Palestra: Psicologia do Yoga",
+    "horario": "11:30",
+    "subtitulo": "Um olhar integrado para a experiência humana",
+    "convidado": "Patrícia Britto",
+    "minicurriculo": "Professora de yoga e estudiosa da filosofia do yoga.",
+    "descricao": "Discussão sobre como a psicologia do yoga pode contribuir para o autoconhecimento.",
+    "imagem": "/convidados/patricia.jpg",
+    "sobreConvidado": "Patrícia Britto é professora de yoga vinculada à linhagem de Krishnamacharya e Desikachar. Ela ensina prática pessoal e oferece atendimentos terapêuticos individuais.",
+    "sobreAtividade": "A palestra explorará a psicologia do yoga, integrando filosofia e prática para promover o autoconhecimento e o bem-estar."
+  },
+  {
+    "dia": "DOMINGO • 10.NOV",
+    "titulo": "Bate-papo e Vivência: Terapia Transpessoal",
+    "horario": "12:30",
+    "subtitulo": "Espiritualidade e Terapias Integrativas",
+    "convidado": "Rebecca",
+    "minicurriculo": "Psicóloga e viajante pelo mundo.",
+    "descricao": "Exploração das terapias transpessoais para pessoas com útero, destacando a espiritualidade e o bem-estar integrativo.",
+    "imagem": "/convidados/rebecca.jpg",
+    "sobreConvidado": "Rebecca é psicóloga, viajante pelo mundo e especialista em terapias integrativas com foco em pessoas com útero, promovendo saúde e espiritualidade.",
+    "sobreAtividade": "Um bate-papo sobre terapias transpessoais e uma vivência prática, oferecendo insights sobre espiritualidade e bem-estar integrativo."
+  },
+  {
+    "dia": "DOMINGO • 10.NOV",
+    "titulo": "Palestra: Inteligência Emocional na Prática",
+    "horario": "13:30",
+    "subtitulo": "Ferramentas para uma vida plena",
+    "convidado": "Samelly",
+    "minicurriculo": "Especialista em inteligência emocional e neurociência.",
+    "descricao": "Discussão sobre como desenvolver inteligência emocional para uma vida equilibrada e plena.",
+    "imagem": "/convidados/samelly.jpg",
+    "sobreConvidado": "Samelly é criadora do Clube do Autoconhecimento, escritora e terapeuta especializada em desenvolvimento humano e espiritual, com foco em neurociência e inteligência emocional.",
+    "sobreAtividade": "A palestra apresenta ferramentas práticas para desenvolver inteligência emocional e alcançar uma vida mais equilibrada e plena."
+  },
+  {
+    "dia": "DOMINGO • 10.NOV",
+    "titulo": "Mesa Redonda: Ferramentas essenciais para desenvolver o autocuidado e alcançar bem-estar físico e mental",
+    "horario": "15:00",
+    "subtitulo": "Explorando práticas e conhecimentos para alcançar saúde física e mental duradoura",
+    "convidado": "Convidados",
+    "minicurriculo": "Prof. Dr. Paulo Azevedo (Mediador), Danilo Delgado e Sergilene Lima",
+    "descricao": "Debate interativo sobre ferramentas práticas para promover o autocuidado e alcançar um bem-estar integral, com insights de especialistas em neurociência afetiva, psicologia transpessoal e envelhecimento positivo.",
+    "imagem": "/convidados/mesa2.jpg",
+    "sobreConvidado": "Prof. Dr. Paulo Azevedo (Mediador) - Homeostase, Desejo e Psiquismo: A Neurociência Afetiva na Saúde Mental; Danilo Delgado - Psicologia Transpessoal: Perspectivas para Autoconhecimento e Desenvolvimento; Sergilene Lima - Envelhecimento Positivo e Virtudes da Velhice segundo Anselm Grüm",
+    "sobreAtividade": "Debate interativo sobre ferramentas práticas para promover o autocuidado e alcançar um bem-estar integral, com insights de especialistas em neurociência afetiva, psicologia transpessoal e envelhecimento positivo."
+  },
+  {
+    "dia": "DOMINGO • 10.NOV",
+    "titulo": "Bate-papo: Como a Arte pode ser Instrumento de Autoconhecimento e Cura?",
+    "horario": "17:00",
+    "subtitulo": "A arte como caminho para a expressão, equilíbrio e saúde mental",
+    "convidado": "Convidados",
+    "minicurriculo": "Juliana Modro (Mediadora), Lara Kuhn, Raissa Ebert, Flávio Ferreira, Ju Speel",
+    "descricao": "Especialistas compartilham suas abordagens na risoterapia, dança, terapia com o mar, artes marciais e fotografia, explorando o poder transformador da arte na saúde mental.",
+    "imagem": "/convidados/juspeel.jpg",
+    "sobreConvidado": "Juliana Modro (Mediadora) - Risoterapia - Sorrir para Viver: A Importância da Risoterapia na Saúde Mental; Lara Kuhn - Dança Tribal Fusion - Explorando a Expressão e os Benefícios na Saúde Mental; Raissa Ebert - Marterapia - Terapias Corporais Integradas; Flávio Ferreira - Tai Chi Chuan - Corpo e Mente em Harmonia; Ju Speel - Fotografia - Enquadrando a Mente: Fotografia como Ferramenta Terapêutica.",
+    "sobreAtividade": "Discussão sobre o uso da arte como instrumento de cura e autoconhecimento, com especialistas em diferentes práticas artísticas e terapêuticas."
+  },
+  {
+    "dia": "DOMINGO • 10.NOV",
+    "titulo": "Encerramento: Arte em Movimento",
+    "horario": "18:30",
+    "subtitulo": "Performance com malabares e pirofagia para inspirar e encantar",
+    "convidado": "Aranha",
+    "minicurriculo": "Artista visual e performer especializada em pirofagia, malabares e artes visuais.",
+    "descricao": "Apresentação com malabares e pirofagia, integrando arte e movimento para celebrar o fechamento do evento",
+    "imagem": "/convidados/aranha.jpg",
+    "sobreConvidado": "Além de sua habilidade em artes cênicas, Aranha também se dedica à arte-educação e artesania, promovendo a cultura e a expressão artística através de performances únicas e cativantes.",
+    "sobreAtividade": "Com uma trajetória que integra técnicas de manipulação de fogo e movimento, a apresentação de Aranha encerra o evento com energia e beleza, proporcionando uma experiência visual intensa e memorável."
+  }
+]
+]
